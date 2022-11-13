@@ -1,0 +1,69 @@
+h1 {
+    margin: 0;
+}
+.container{
+    max-width: 100%;
+    overflow: auto;
+    height: 50%;
+    border: 1px solid black;
+    background-color:black;
+    align-items: flex-start; 
+    display: flex;
+    overflow-x: hidden;
+
+    
+}
+
+.image1 {
+    max-height: 100%;
+    min-height: 100%;
+    object-fit: scale-down;
+    
+    margin-right: 72%;
+    
+}
+
+a {
+    
+    display: block;
+    height:100px;
+    width:100x;
+}
+
+a img {
+    margin-top: 25px;
+    max-width:50px;
+    max-height:50px;
+    height:100%;
+    width:100%;
+}
+
+.image2{
+    max-height: 1rem;
+    max-width: 1rem;
+    margin-right: 10px;
+}
+button {
+    background-color: #81DF55;
+    border-radius: 5px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    font: Saira;
+    font-size: 12px;
+    font-style: bold;
+    transition: 0.5s;
+}
+
+
+
+.center-v{
+    align-items: center;
+}
+
+button:hover{
+    transform: translateY(-1px);
+    box-shadow: 0 0.5px 0.5px rgba(72,140,40);
+    transition: 0.5s;
+}

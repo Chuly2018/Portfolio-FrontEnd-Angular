@@ -1,0 +1,73 @@
+.imagen{
+    max-height:20%;
+    max-width:20%;
+    padding-left:40px;
+    padding-top:40px;
+    position:absolute
+}
+.container{
+    margin-left:3.5%;
+    max-width: 90%;
+    overflow: auto;
+    height: 100%;
+    border: 3px solid black;
+    align-items: flex-start; 
+    border-radius:15px;
+    overflow-x: hidden;
+
+    
+}
+h1{
+    font-size: 200%;
+    text-decoration-line: underline;
+    color:#BABABA;
+    margin-left: 2%;
+    margin-top: 1%;
+
+}
+
+h2 {
+    color: #777;
+    font-size:100%;
+    margin-left: 1%;
+    margin-right:120px;
+    padding-top:60px;
+   
+}
+.cierg{
+    font-size:30px;
+    text-align:center;
+    padding-bottom:10%;
+    align-items:left;
+    margin-left:3%;
+ 
+}
+.center-v{
+    align-items: center;
+}
+.division{
+    max-width: 100%;
+    max-height:1%;
+    border: 1px solid #66DAFF;
+    background-color:#66DAFF;
+    align-items: flex-start; 
+    display: flex;
+    overflow-x: hidden;
+    margin-top:3%;
+
+}
+.edit{
+    max-height: 1rem;
+    max-width: 1rem;
+    align-content: center;
+    object-fit: scale-down;
+    float: right;
+}
+.cambridge{
+    font-size:30px;
+    text-align:center;
+    padding-bottom:1.2rem;
+    align-items:left;
+    margin-left:3%;
+ 
+}
